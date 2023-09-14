@@ -6,26 +6,33 @@
   margin-right: auto;
 }
 .navbar-left {
-  display: flex;
   justify-content: space-between;
 }
 .navbar-right {
-  display: flex;
   height: 67px;
-  align-items: center;
+  margin-left: 750px;
+  margin-top: -40px;
 }
 .logo {
-  display: flex;
   font-size: 1.3rem;
   font-weight: bolder;
   align-items: center;
   color: rgb(227 74 56);
+  margin-top: 25px;
 }
 .navbar-right a {
   text-decoration: none;
   color: black;
   list-style: none;
   margin: 0 12px;
+}
+.hr2 {
+  margin-top: -10px;
+}
+
+.navbar-right a:hover {
+  cursor: pointer;
+  color: red;
 }
 
 .btn {
@@ -35,6 +42,11 @@
   cursor: pointer;
   color: white;
   background-color: rgb(227 74 56);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #26577c;
 }
 
 #section1 {
@@ -60,7 +72,7 @@
 .dumbellimg {
   width: 258px;
   margin-left: 12rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .deal {
@@ -73,9 +85,9 @@
   width: 50%;
   display: flex;
   justify-content: center;
-  height: 45rem;
+  height: 40rem;
   margin-left: 40rem;
-  margin-top: -35rem;
+  margin-top: -40rem;
 }
 .button {
   display: flex;
@@ -83,6 +95,7 @@
   align-items: center;
   margin: 12px;
 }
+
 .btn1 {
   padding: 7px 12px;
   border: 2px solid white;
@@ -90,6 +103,11 @@
   color: white;
   background-color: rgb(227 74 56);
 }
+.btn1:hover {
+  cursor: pointer;
+  background-color: #26577c;
+}
+
 .section2 {
   padding: 73px;
 }
@@ -102,6 +120,23 @@
   text-align: center;
 }
 
+#carouselExampleControls {
+  margin-left: 30%;
+  width: 40%;
+  color: black;
+}
+
+.d-block-w-100 {
+  margin-top: 40px;
+  height: 50%;
+}
+.gallery{
+  text-align: center;
+  margin-top: 26px;
+}
+.hr3{
+  margin-top: 60px;
+}
 .price {
   text-align: center;
   margin-top: 26px;
@@ -140,37 +175,37 @@
   padding: 73px;
 }
 
-.section3 h1{
-text-align: center;
-margin-top: 26px;
-margin-bottom: 26px;
+.section3 h1 {
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 26px;
 }
-.table-content{
-    display: flex;
-    max-width: 80vw;
-    font-family: 'Ubuntu', sans-serif;
-    justify-content: center;
-    align-items: center;
+.table-content {
+  display: flex;
+  max-width: 80vw;
+  font-family: "Ubuntu", sans-serif;
+  justify-content: center;
+  align-items: center;
 }
-.section3 table{
-    width: 100%;
-    margin-bottom: 140px;
-    margin-top: 20px;
-    border-collapse: collapse;
-    text-align: center;
+.section3 table {
+  width: 100%;
+  margin-bottom: 140px;
+  margin-top: 20px;
+  border-collapse: collapse;
+  text-align: center;
 }
 
-.section3 table th{ 
-    width: 23vw; 
-    border-bottom: 2px solid black;
-    padding: 15px 0;
-} 
+.section3 table th {
+  width: 23vw;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
 
-.section3 table td{   
-    border-bottom: 2px solid black; 
-} 
- 
-footer{
-    padding: 23px;
-    text-align: center;
+.section3 table td {
+  border-bottom: 2px solid black;
+}
+
+footer {
+  padding: 23px;
+  text-align: center;
 }
