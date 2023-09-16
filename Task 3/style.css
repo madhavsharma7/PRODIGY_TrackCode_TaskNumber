@@ -1,6 +1,10 @@
+*{
+	background-color: burlywood;
+}
 h1 {
 	color: orangered;
 	margin-bottom: -5px;
+
 }
 p {
 	margin-bottom: -10px;
@@ -83,8 +87,7 @@ p {
 	border: 1px solid dodgerblue;
 	margin-left: auto;
 	border-radius: 8px;
-	font-family: Verdana,
-		Geneva, Tahoma, sans-serif;
+	font-family: Verdana,Geneva, Tahoma, sans-serif;
 
 	background-color: whitesmoke;
 	color: dodgerblue;
@@ -103,11 +106,12 @@ p {
 /* Main Container */
 #main {
 	text-align: center;
+	font-size: 20px;
 }
 
 /* Game Instruction Text */
 #ins {
-	font-family: Verdana,Geneva,
-					Tahoma, sans-serif;
+	font-size: 20px;;
+	font-family: Verdana,Geneva,Tahoma, sans-serif;
 	color: dodgerblue;
 }
